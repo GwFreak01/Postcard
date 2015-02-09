@@ -76,6 +76,12 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="14"/>
                                 <textInputTraits key="textInputTraits"/>
                             </textField>
+                            <label hidden="YES" opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="C6m-VM-WeL">
+                                <rect key="frame" x="36" y="155" width="216" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <color key="textColor" cocoaTouchSystemColor="darkTextColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
@@ -86,6 +92,7 @@
                         <outlet property="enterNameTextField" destination="ZWA-5o-bCV" id="xmo-am-BG5"/>
                         <outlet property="mailButton" destination="m6O-b8-6r0" id="ujl-F4-dqD"/>
                         <outlet property="messageLabel" destination="gWU-dX-JAa" id="hf8-IA-aQR"/>
+                        <outlet property="nameLabel" destination="C6m-VM-WeL" id="adf-B0-1fY"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
